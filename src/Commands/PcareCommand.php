@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Kangangga\Pcare\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PcareCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-pcare';
 
     public $description = 'My command';
 
