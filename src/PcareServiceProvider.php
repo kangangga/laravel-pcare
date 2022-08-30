@@ -2,8 +2,8 @@
 
 namespace Kangangga\Pcare;
 
-use Spatie\LaravelPackageTools\Package;
 use Kangangga\Pcare\Commands\PcareCommand;
+use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class PcareServiceProvider extends PackageServiceProvider
@@ -17,17 +17,17 @@ class PcareServiceProvider extends PackageServiceProvider
 
     public function packageRegistered()
     {
-        #code
+        //code
     }
 
     public function bootingPackage()
     {
-        #code
+        //code
     }
 
     public function packageBooted()
     {
-        #code
+        //code
     }
 
     public function configurePackage(Package $package): void
